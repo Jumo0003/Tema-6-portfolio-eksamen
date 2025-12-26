@@ -1,0 +1,6 @@
+/*****12 columm grid system setup***/
+
+.Grid-Container1 {
+  display: grid;
+  grid-template-columns: repeat(12[col-start]1fr);
+}
