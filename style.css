@@ -15,9 +15,34 @@ img {
 
 @import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap");
 
+.martel-sans-regular {
+  font-family: "Martel Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&display=swap");
+.hind-madurai-regular {
+  font-family: "Hind Madurai", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 /*********text*/
 p {
+  font-family: "Hind Madurai", sans-serif;
+}
+
+h1,
+h2 {
   font-family: "Martel sans", sans-serif;
+}
+
+.GreenCircle {
+  border-radius: 50%;
+  background: #04aa6d;
+  width: 500px;
+  height: 250px;
 }
 
 /*********'burger css**********/

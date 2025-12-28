@@ -1,6 +1,26 @@
 /*****12 columm grid system setup***/
 
+* {
+  box-sizing: border-box;
+}
 .Grid-Container1 {
   display: grid;
   grid-template-columns: repeat(12[col-start]1fr);
+  gap: 20px;
+}
+
+.Grid-Container1 > * {
+  border: 1px solid green;
+
+  padding: 10px;
+  grid-column: col-start / span 12;
+}
+
+.GreenCircle,
+#midte-overskrift-side-1 {
+  grid-row: 2;
+}
+
+#midte-overskrift-side-1 {
+  grid-column: col-start 3 / span 5;
 }
