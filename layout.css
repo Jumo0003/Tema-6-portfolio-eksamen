@@ -1,26 +1,51 @@
 /*****12 columm grid system setup***/
 
-* {
-  box-sizing: border-box;
-}
+/*********Mobile first ehhehe*******/
+
 .Grid-Container1 {
   display: grid;
-  grid-template-columns: repeat(12[col-start]1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
 
-.Grid-Container1 > * {
-  border: 1px solid green;
-
-  padding: 10px;
-  grid-column: col-start / span 12;
+#overskrift-side-1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
 }
 
-.GreenCircle,
-#midte-overskrift-side-1 {
-  grid-row: 2;
+.first {
+  grid-column-start: 1;
+  grid-column-end: 2.5;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.second {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 5;
 }
 
 #midte-overskrift-side-1 {
-  grid-column: col-start 3 / span 5;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 5;
+  grid-row-end: 7;
+}
+
+.third {
+  grid-column-start: 1;
+  grid-column-end: 2.5;
+  grid-row-start: 8;
+  grid-row-end: 9;
+}
+
+.fourth {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 8;
+  grid-row-end: 9;
 }
