@@ -262,6 +262,18 @@ header {
   font-size: 1.2rem;
 }
 
+.om-mig-tekst {
+  position: absolute;
+  z-index: 2;
+  top: 13%;
+  right: 8%;
+  max-width: 65ch;
+  border: 2px solid green;
+  background-color: #400059;
+  padding: 2%;
+  border-radius: 2%;
+}
+
 @media screen and (max-width: 800px) {
   .menu {
     display: none;
