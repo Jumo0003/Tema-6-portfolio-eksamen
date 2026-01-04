@@ -194,6 +194,11 @@ header {
   color: #11726c;
 }
 
+.projekter-link:hover {
+  background-color: #5d83a7;
+  font-size: 18px;
+}
+
 /***********Modal box********/
 .modal {
   display: none;
