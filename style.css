@@ -49,6 +49,12 @@ h2 {
   margin: 8%;
 }
 
+h3 {
+  color: #c4ddf3;
+  font-family: "Martel sans", sans-serif;
+  text-align: center;
+}
+
 /*********'burger css**********/
 .burger {
   width: 30px;
@@ -210,6 +216,7 @@ header {
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 3;
   overflow-y: scroll;
+  border-radius: 15%;
 }
 
 .modal-content {
@@ -217,6 +224,29 @@ header {
   padding: 30px;
   max-width: 600px;
   margin: auto;
+}
+
+.close {
+  background-color: #deac2c;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+img {
+  border-radius: 8%;
+}
+
+a {
+  color: #a92fff;
+  text-align: center;
 }
 
 /*********knap**********/
@@ -229,7 +259,7 @@ header {
   left: 15%; /* justér vandret */
   z-index: 2;
 
-  padding: 1rem 2rem;
+  padding: 2%;
   font-size: 1.2rem;
 }
 
@@ -240,7 +270,7 @@ header {
   top: 20%; /* justér til skyens højde */
   right: 30%;
   z-index: 2;
-  padding: 1rem 2rem;
+  padding: 2%;
   font-size: 1.2rem;
 }
 
@@ -251,7 +281,7 @@ header {
   top: 5%; /* justér til skyens højde */
   right: 40%;
   z-index: 2;
-  padding: 1rem 2rem;
+  padding: 2%;
   font-size: 1.2rem;
 }
 
@@ -263,7 +293,7 @@ header {
   left: 23%; /* justér vandret */
   z-index: 2;
 
-  padding: 1rem 2rem;
+  padding: 2%;
   font-size: 1.2rem;
 }
 
@@ -277,6 +307,19 @@ header {
   background-color: #400059;
   padding: 2%;
   border-radius: 2%;
+}
+
+.billedafmig {
+  position: absolute;
+  z-index: 2;
+  border: 2px solid green;
+  background-color: #400059;
+  border-radius: 2%;
+  top: 13%;
+  left: 8%;
+  max-width: 30%;
+  max-height: 85vh;
+  height: auto;
 }
 
 .forside-tekst {
@@ -294,6 +337,10 @@ header {
   position: absolute;
   top: 70%;
   right: 20%;
+}
+
+.projekter-link {
+  color: blue;
 }
 
 @media screen and (max-width: 800px) {
