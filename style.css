@@ -396,4 +396,18 @@ a {
     top: 82%;
     left: 50%;
   }
+  .billedafmig {
+    position: absolute;
+    top: 15%;
+  }
+  .om-mig-tekst {
+    position: absolute;
+    top: 45%;
+  }
+  #lillepragrafop {
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    max-width: 45ch;
+  }
 }
